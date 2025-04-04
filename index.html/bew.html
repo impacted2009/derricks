@@ -1,0 +1,55 @@
+    <header class="navbar">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2 id="hero-title">Welcome to My Portfolio</h2>
+        <p id="hero-text">Building modern, responsive websites with passion.</p>
+        <button class="cta-button" onclick="changeText()">Click Me!</button>
+    </section>
+
+    <!-- Grid Section -->
+    <section id="projects" class="grid-container">
+        <div class="grid-item">Web Design</div>
+        <div class="grid-item">Data Science</div>
+        <div class="grid-item">AI & ML</div>
+        <div class="grid-item">Cloud Computing</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button onclick="greetUser()">Submit</button>
+        <p id="greeting"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Portfolio | Designed by derrick</p>
+    </footer>\
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+          <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+          <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+        </ul>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
